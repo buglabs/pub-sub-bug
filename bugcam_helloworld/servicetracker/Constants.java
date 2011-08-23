@@ -5,8 +5,8 @@ public class Constants {
 	/**
 	 * Credentials
 	 */
-	public static String username = "00728";
-	public static String password = "e18d8aea-03b3-486f-bd6c-b1c837ed581c";
+	public static String username = "";
+	public static String password = "";
 	public static String clientId = username + "/bug";
 
 	/**
