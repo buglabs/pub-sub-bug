@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bug-Bundle-Type: Application
+Bundle-Vendor: John Connolly
+Bundle-Version: 1.0.0
+Bundle-Name: BUGcam_helloworld
+Bundle-ClassPath: ., isidorey-api.jar, mqtt-client.jar, netty-3.2.5.Final.jar
+Bundle-Activator: bugcam_helloworld.Activator
+Import-Package: com.buglabs.bug.module.camera.pub,org.osgi.framework,o
+ rg.osgi.util.tracker,com.buglabs.application,com.buglabs.util,javax.net.ssl
+Bundle-SymbolicName: BUGcam_helloworld
+

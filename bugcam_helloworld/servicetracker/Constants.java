@@ -1,0 +1,41 @@
+package bugcam_helloworld.servicetracker;
+
+public class Constants {
+
+	/**
+	 * Credentials
+	 */
+	public static String username = "00728";
+	public static String password = "e18d8aea-03b3-486f-bd6c-b1c837ed581c";
+	public static String clientId = username + "/bug";
+
+	/**
+	 * Cloud storage
+	 */
+	public static String bucket = username;
+	public static String filePath = "/tmp/image.jpg";
+
+	/**
+	 * Device specific (would normally be MAC/serial related)
+	 */
+	public static String company = username;
+	public static String project = "P-000728";
+	public static String tag = "bug";
+	public static String asset = "labs";
+	public static String field = "hub";
+	public static String controlField = "ctrl";
+	
+	/**
+	 * Control
+	 */
+	public static String controlCamera = "CAMERA";
+
+	/**
+	 * MQtt
+	 */
+	public static String brokerUrl = "broker.isidorey.net";
+	public static String subscribedTopic = company + "/" + project + "/#";
+	public static String controlTopic = company + "/" + project + "/" + tag
+			+ "/" + asset + "/" + controlField;
+
+}
